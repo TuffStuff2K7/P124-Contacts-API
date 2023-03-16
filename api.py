@@ -41,7 +41,7 @@ def addContact():
 
 
 @app.route("/get-data")
-def get_task():
+def getContact():
     return jsonify({
         "data" : contacts
     })
